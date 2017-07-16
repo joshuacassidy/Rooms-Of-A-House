@@ -1,9 +1,6 @@
 public class Bed {
     private String style;
-    private int pillows;
-    private int height;
-    private int sheets;
-    private int quilt;
+    private int pillows,height,sheets,quilt;
 
     public Bed(String style, int pillows, int height, int sheets, int quilt){
         this.style = style;

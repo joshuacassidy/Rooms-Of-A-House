@@ -11,7 +11,6 @@ public class Lamp {
 
     public void hitSwitch(boolean isOn){
         System.out.println(isOn ? "Lamp is turned on." : "Lamp is turned off.");
-        
     }
 
     public String getStyle() {
