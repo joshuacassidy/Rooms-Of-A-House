@@ -9,8 +9,9 @@ public class Lamp {
         this.globRating = globRating;
     }
 
-    public void turnOn(){
-        System.out.println("Lamp -> turning on");
+    public void hitSwitch(boolean isOn){
+        System.out.println(isOn ? "Lamp is turned on." : "Lamp is turned off.");
+        
     }
 
     public String getStyle() {
